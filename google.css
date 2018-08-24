@@ -1,0 +1,38 @@
+body{
+    width: 500px;
+    height:500 px;
+}
+
+
+li{
+    display: inline;
+    font-size: medium;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.gmail{
+    float: right;
+}
+.images{
+    float: right;
+}
+.logo{
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.privacy,
+.terms,
+.settings {
+    float:bottom;
+}
+
+.results{
+    height: 5000px;
+    text-align: center;
+}
