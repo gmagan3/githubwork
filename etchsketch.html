@@ -19,8 +19,21 @@
         var content = document.createElement('div');
         content.classList.add('content');
         content.setAttribute('style','border: 1px solid black; padding:20px;text-align:center');
+        
+
         container.appendChild(content);
+
+        
     }
+    const grid = document.querySelectorAll('div');
+    grid.forEach((div) => {
+        div.addEventListener("mouseover", (e) => {
+            div.setAttribute('style', 'background-color:blue')
+        });
+    });
+        
+       
+    
 </script>
 
 </html>
