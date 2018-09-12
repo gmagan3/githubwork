@@ -1,3 +1,4 @@
+
 function add(a,b){
 	number = a+b
 	console.log(number)
@@ -29,5 +30,21 @@ function operate(a,b,c){
 		divide(a,c);
 	}
 }
+var display = document.getElementById("display")
 
-operate(2,"+",2);
+function button() {
+const btn = document.querySelectorAll(".grid-item");
+
+btn.forEach((button) => {
+	button.addEventListener('click',(e) => {
+		return display.value = button.textContent;
+	});
+});
+}
+
+button();
+
+
+
+
+
